@@ -1,6 +1,6 @@
 # PROJETO FINAL - Turma 7on Back-end {reprograma}
 
-A partir da vivência em uma Maratona Digital promovida pela Unicef, visando contribuir para o acesso ao ensino emoto de estudantes em situação de vulnerabilidade social, meu projeto será um banco de dados para doação de smartphones, tablets e notebooks usados (em perfeito estado de uso) para estudantes de escolas públicas de comunidades indígenas e quilombolas.
+A partir da vivência em uma Maratona Digital promovida pela Unicef, visando contribuir para o acesso ao ensino emoto de estudantes em situação de vulnerabilidade social,**meu projeto será um banco de dados para doação de smartphones, tablets e notebooks usados (em perfeito estado de uso) para estudantes de escolas públicas de comunidades indígenas e quilombolas.**
 
 ## **O PROJETO TERÁ OS SEGUINTES SCHEMAS:**
 
@@ -20,9 +20,7 @@ A partir da vivência em uma Maratona Digital promovida pela Unicef, visando con
 
 ## **TECNOLOGIAS UTILIZADAS**
 
-Git
-Node.js
-MongoDB
+Git  |  Node.js  |  MongoDB
 
 
 ## **PACOTES**
