@@ -1,12 +1,13 @@
+require('dotenv-safe').config()
 const express = require("express")
 const bodyParser = require("body-parser")
 const mongoose = require("mongoose")
 
 const app = express()
 
-mongoose.connect("mongodb://localhost:27017/projetoFinal", { 
-  useNewUrlParser: true, 
-  useUnifiedTopology: true 
+mongoose.connect(`${process.env.MONGODB_URL}`, {
+  useNewUrlParser: true,
+  useUnifiedTopology: true
 });
 
 let db = mongoose.connection;
@@ -17,6 +18,7 @@ db.once("open", function (){
 })
 
 const communities = require("./routes/communitiesRoute")
+const index = require("./routes/index.js")
 
 app.use(bodyParser.json());
 
@@ -29,6 +31,7 @@ app.use(function (req, res, next) {
     next()
   })
 
+app.use("/", index)
 app.use("/communities", communities)
 
 module.exports = app
