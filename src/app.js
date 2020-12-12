@@ -1,21 +1,34 @@
 const express = require("express")
+const bodyParser = require("body-parser")
+const mongoose = require("mongoose")
+
 const app = express()
 
-app.use(express.json())
+mongoose.connect("mongodb://localhost:27017/projetoFinal", { 
+  useNewUrlParser: true, 
+  useUnifiedTopology: true 
+});
 
-const index = require("./routes/index")
-const community = require("./routes/community")
+let db = mongoose.connection;
 
-app.use(function (req, res, next) {
-    res.header("Access-Control-Allow-Origin", "*")
-    res.header(
-        "Access-Control-Allow-Headers",
-        "Origin, X-Request-with, Content-Type, Accept"
-    )
-    next()
+db.on("error", console.log.bind(console, "connection error:"))
+db.once("open", function (){
+  console.log("conexão feita com sucesso.")
 })
 
-app.use("/", index)
-app.use("/community", community)
+const communities = require("./routes/communitiesRoute")
+
+app.use(bodyParser.json());
+
+app.use(function (req, res, next) {
+  res.header("Access-Control-Allow-Origin", "*")
+  res.header(
+    "Access-Control-Allow-Headers",
+    "Origin, X-Requested-With, Content-Type, Accept"
+    )
+    next()
+  })
+
+app.use("/communities", communities)
 
 module.exports = app
