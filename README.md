@@ -8,7 +8,7 @@ A API irá armazenar os dados cadastrados das comunidades indígenas e quilombol
 
 **COMUNIDADE** - Para cadastro das comunidades que necessitam das doações.
 
-![schema doadores](./images/schema-comunidade.png)
+![schema comunidade](./images/schema-comunidades.png)
 ##### Imagem Editada | Autoria própria
 
 
