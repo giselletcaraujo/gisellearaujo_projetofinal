@@ -4,13 +4,13 @@ const fs = require("fs")
 const getAllCommunities = (req, res) => {
     console.log("Minha query string:")
     console.log(req.query)
-    /*const genre = req.query.genre 
+    const genre = req.query.genre 
     if (genre) { 
         const communitiesByGenre = communities.filter(community => community.genre.includes(genre)) 
         res.status(200).send(communitiesByGenre) 
     } else { 
         res.status(200).send(communities)
-    }*/
+    } 
 }
 
 const createCommunity = (req, res) => {
@@ -26,7 +26,7 @@ const createCommunity = (req, res) => {
         }
     })
 }
-/*
+
 const getCommunity = (req, res) => {
     const communityId = req.params.id
     const communityFound = communities.find(community => community.id == communityId)
@@ -120,12 +120,11 @@ const deleteCommunity = (req, res) => {
     }
 }
 
-*/
 module.exports = {
     getAllCommunities,
     createCommunity,
-    /*getCommunity,
+    getCommunity,
     updateCommunity,
     updateReceivedStatus,
-    deleteCommunity*/
+    deleteCommunity
 }

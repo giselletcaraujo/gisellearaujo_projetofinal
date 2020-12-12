@@ -4,89 +4,89 @@
         "name": "Conceição das Crioulas",
         "genre": "Quilombola",
         "city": "Salgueiro",
-	    "numStudents": 10,
-	    "numArtifact": 10,
+        "numStudents": 10,
+        "numArtifact": 10,
         "received": false
     },
-   {
+    {
         "id": 2,
         "name": "Povoado de Trigueiros",
         "genre": "Quilombola",
         "city": "Vicência",
-	    "numStudents": 15,
-	    "numArtifact": 15,
+        "numStudents": 15,
+        "numArtifact": 15,
         "received": false
     },
-{
+    {
         "id": 3,
         "name": "Grupo Pankararu",
         "genre": "Indígena",
         "city": "Tacaratu",
-	    "numStudents": 12,
-	    "numArtifact": 12,
+        "numStudents": 12,
+        "numArtifact": 12,
         "received": false
     },
-{
+    {
         "id": 4,
         "name": "Grupo Fulni-ô",
         "genre": "Indígena",
         "city": "Águas Belas",
-	    "numStudents": 17,
-	    "numArtifact": 17,
+        "numStudents": 17,
+        "numArtifact": 17,
         "received": false
     },
-{
+    {
         "id": 5,
         "name": "Portão do Gelo",
         "genre": "Quilombola",
         "city": "Olinda",
-	    "numStudents": 20,
-	    "numArtifact": 20,
+        "numStudents": 20,
+        "numArtifact": 20,
         "received": false
     },
-{
+    {
         "id": 6,
         "name": "Comunidade Castainho",
         "genre": "Quilombola",
         "city": "Garanhuns",
-	    "numStudents": 15,
-	    "numArtifact": 15,
+        "numStudents": 15,
+        "numArtifact": 15,
         "received": false
     },
-{
+    {
         "id": 7,
         "name": "Grupo Kapinawá",
         "genre": "Indígena",
         "city": "Buique",
-	    "numStudents": 15,
-	    "numArtifact": 15,
+        "numStudents": 15,
+        "numArtifact": 15,
         "received": false
     },
-{
+    {
         "id": 8,
         "name": "Grupo Truká",
         "genre": "Indígena",
         "city": "Cabrobó",
-	    "numStudents": 10,
-	    "numArtifact": 10,
+        "numStudents": 10,
+        "numArtifact": 10,
         "received": false
     },
-{
+    {
         "id": 9,
         "name": "Comunidade do Timbó",
         "genre": "Quilombola",
         "city": "Garanhuns",
-	    "numStudents": 18,
-	    "numArtifact": 18,
+        "numStudents": 18,
+        "numArtifact": 18,
         "received": false
     },
-{
+    {
         "id": 10,
         "name": "Comunidade Águas Claras",
         "genre": "Quilombola",
         "city": "Triunfo",
-	    "numStudents": 13,
-	    "numArtifact": 13,
+        "numStudents": 13,
+        "numArtifact": 13,
         "received": false
-   }
+    }
 ]
