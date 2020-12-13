@@ -11,21 +11,28 @@ Neste projeto apresento a primeira etapa da proposta, onde foi desenvolvida uma 
 ![schema comunidade](./images/schema-comunidades.png)
 ##### Imagem Editada | Autoria própria
 
+Nesta etapa será possível: 
+
+- Cadastrar uma comunidade
+- Buscar / listar as comunidades 
+- Filtrar uma comunidade por id
+- Alterar / atualizar uma comunidade
+- Remover uma comunidade
 
 ## **TECNOLOGIAS UTILIZADAS PARA SEU DESENVOLVIMENTO**
 
-- Git 
+- Git/Github
 - Node.js 
 - MongoDB
 - Heroku
 - Postman
 
+## **DEPENDÊNCIAS**
 
-## **PACOTES**
-
-- package.jason 
-- node_modules
-
+- dotenv-safe 
+- express 
+- mongoose 
+- nodemon 
 
 ## **ROTAS** | MÉTODOS E AÇÕES
 
@@ -34,6 +41,14 @@ Com utilização das tecnologias citadas, por meio de métodos HTTP, os dados se
 ![rotas com métodos e ações](./images/rotas_metodos-acoes.png)
 ##### Imagem Editada | Autoria própria
 
+## **PRÓXIMAS ETAPAS**
+
+Como citado esta é a primeira etapa de uma projeto, em desenvolvimento. As próximas etapas serão compostas por:
+
+- Filtros por outros parâmetros
+- Schema para doadores
+- Autenticação para todas as rotas com criação de login
+
 
 ## **GRATIDÃO**
 
@@ -41,7 +56,7 @@ Com utilização das tecnologias citadas, por meio de métodos HTTP, os dados se
 
 - Às professoras, que foram muito parceiras e deram show de competência, mesmo diante das dificuldades de um curso online com aulas tão longas.
 
-- À Rai, a facilitadora mais maravilinda em linha reta (quem é de Recife entende) e Ju, nossa orientadora mais que querida S2
+- À Rai, a facilitadora mais maravilinda em linha reta (quem é de Recife entende) Ju, nossa orientadora educacional mais que querida S2 e todas as monitoras que foram super atenciosas.
 
 - Às meninas da turma, muito obrigada. Vocês são arretadas!!!
 
@@ -50,5 +65,7 @@ Com utilização das tecnologias citadas, por meio de métodos HTTP, os dados se
 - À inteligência suprema do universo que denominamos Deus.
 
 
-
    **Agora, é apontar pra fé e remar! ;)** 
+
+
+![projeto em desenvolvimento](./images/rodape.png)
