@@ -9,7 +9,7 @@ Neste projeto apresento a primeira etapa da proposta, onde foi desenvolvida uma 
 ## **O PROJETO TERÁ O SEGUINTE SCHEMA:**
 
 ![schema comunidade](./images/schema-comunidades.png)
-##### Imagem Editada | Autoria própria
+
 
 Nesta etapa será possível: 
 
@@ -39,7 +39,7 @@ Nesta etapa será possível:
 Com utilização das tecnologias citadas, por meio de métodos HTTP, os dados serão manipulados conforme a necessidade dos cadastros e usuários.
 
 ![rotas com métodos e ações](./images/rotas_metodos-acoes.png)
-##### Imagem Editada | Autoria própria
+
 
 ## **PRÓXIMAS ETAPAS**
 
