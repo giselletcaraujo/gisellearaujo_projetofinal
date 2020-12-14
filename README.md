@@ -1,4 +1,4 @@
-# **PROJETO FINAL Turma 7on Back-end {reprograma}** 
+# **PROJETO FINAL Turma 7on Back-end {reprograma} - Porto Digital MINAs** 
 
 ## **CONEXÃO COMUNIDADES**
 
